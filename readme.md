@@ -11,4 +11,6 @@
 ## Create App
 - make sure you are one directory as `manage.py` file
 - create app:  `python manage.py startapp firstApp`
+- creating Views: 
+    - 
 

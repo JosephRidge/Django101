@@ -17,10 +17,11 @@ Including another URLconf
 
 # library importations
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 
 # paths or routes or endpoints
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('firstApp/',include('firstApp.urls'))
 ]
